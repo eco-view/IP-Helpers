@@ -31,9 +31,16 @@
 ```
 #### Edit files with your own credentials
 
-# ../COMPUTERstatic/getgmail.py
-from_address = '<yourEmail>@gmail.com'
-to_address = '<yourEmail>@gmail.com'
-subject = 'LAST IP'
-username = '<yourUsername>'
-password = '<password>'
+#### ../COMPUTERstatic/getgmail.py
+```python
+15 mail.login('<yourEmail>@gmail.com', '<password>')
+```
+
+#### ../PIstatic/ipemail.py
+```python
+8  from_address = '<yourEmail>@gmail.com'
+9  to_address = '<yourEmail>@gmail.com'
+10 subject = 'LAST IP'
+11 username = '<yourUsername>'
+12 password = '<password>'
+```
