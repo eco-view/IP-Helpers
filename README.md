@@ -1,6 +1,8 @@
 # Download Raspian
 https://downloads.raspberrypi.org/NOOBS_latest
 
+# Download SD formatter
+https://www.sdcard.org/downloads/formatter/index.html
 
 # IP-Helpers
 
