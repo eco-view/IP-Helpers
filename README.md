@@ -29,3 +29,6 @@
 ```
    pip3 freeze
 ```
+#### Edit files with your own credentials
+
+https://github.com/eco-view/IP-Helpers/blob/f5b461ecf05b2ad93d829a167474741d7dcb3d3e/PIstatic/ipemail.py#L7-L12
