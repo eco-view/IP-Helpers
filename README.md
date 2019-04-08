@@ -31,4 +31,9 @@
 ```
 #### Edit files with your own credentials
 
-https://github.com/eco-view/IP-Helpers/blob/f5b461ecf05b2ad93d829a167474741d7dcb3d3e/PIstatic/ipemail.py#L7-L12
+# ../COMPUTERstatic/getgmail.py
+from_address = '<yourEmail>@gmail.com'
+to_address = '<yourEmail>@gmail.com'
+subject = 'LAST IP'
+username = '<yourUsername>'
+password = '<password>'
