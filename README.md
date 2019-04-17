@@ -1,9 +1,3 @@
-# Download Raspian
-https://downloads.raspberrypi.org/NOOBS_latest
-
-# Download SD formatter
-https://www.sdcard.org/downloads/formatter/index.html
-
 # IP-Helpers
 
 #### Prepare folder location
@@ -50,3 +44,5 @@ https://www.sdcard.org/downloads/formatter/index.html
 11 username = '<yourUsername>'
 12 password = '<password>'
 ```
+
+#### After configuration, make sure to set up a cronjob for automatic updates
