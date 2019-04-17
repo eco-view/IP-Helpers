@@ -1,4 +1,4 @@
-# IP-Helpers :mag-right: :computer:
+# IP-Helpers :computer:
 
 #### Prepare folder location
 
