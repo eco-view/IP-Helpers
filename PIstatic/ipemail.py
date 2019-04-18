@@ -50,20 +50,12 @@ def get_local_ip():
 def send_email(ourIP, localIP):
     # Body of the email
     hostname = socket.gethostname()
-    # body_tip = 'startMSG'
-    # body_text1 = ourIP + ' is our public IP address.'
-    # body_text2 = localIP + ' is our local IP.'
-    # body_text3 = hostname + ' is our hostname.'
-    # body_text_cap = 'endMSG'
     body_text = {"publicIP": ourIP, "localIP": localIP, "hostname": hostname}
     msg = '\r\n'.join(['To: %s' % to_address,
                         'From: %s' % from_address,
                         'Subject: %s' % subject,
                         '', '{' + str(body_text) + '}'])
-                        # '', body_text1, body_text2, body_text3, body_text_cap])
     # # actually send email
-    # print(body_text)
-    # print(msg)
     server = smtplib.SMTP('smtp.gmail.com:587')
     server.starttls() # our security for transmission of creds
     server.login(username, password)
